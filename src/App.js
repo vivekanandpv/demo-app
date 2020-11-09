@@ -8,7 +8,7 @@ function App() {
   return (
     <Fragment>
       <Navbar />
-      <Banner />
+      {/* <Banner /> */}
       <MainContent />
       <Footer />
     </Fragment>
