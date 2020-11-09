@@ -3,13 +3,15 @@ import Banner from './components/Banner';
 import Footer from './components/Footer';
 import MainContent from './components/MainContent';
 import Navbar from './components/Navbar';
+import RegistrationForm from './components/RegistrationForm';
 
 function App() {
   return (
     <Fragment>
       <Navbar />
       {/* <Banner /> */}
-      <MainContent />
+      {/* <MainContent /> */}
+      <RegistrationForm />
       <Footer />
     </Fragment>
   );
