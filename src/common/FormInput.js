@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 
 const FormInput = (props) => {
   return (
@@ -16,5 +17,12 @@ const FormInput = (props) => {
     </Fragment>
   );
 };
+
+// FormInput.propTypes = {
+//   label: PropTypes.string,
+//   type?: PropTypes.string,
+//   name: PropTypes.string,
+//   errorMessage: PropTypes.string
+// }
 
 export default FormInput;
