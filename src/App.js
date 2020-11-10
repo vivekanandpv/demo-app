@@ -14,8 +14,8 @@ function App() {
       {/* <Banner /> */}
       {/* <MainContent /> */}
       {/* <RegistrationForm /> */}
-      {/* <Demo /> */}
-      <FormikForm />
+      <Demo />
+      {/* <FormikForm /> */}
       <Footer />
     </Fragment>
   );
